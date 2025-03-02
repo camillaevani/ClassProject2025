@@ -1,0 +1,10 @@
+body {background-color: darkcyan;}
+H1 {color: blanchedalmond;}
+p {color: coral;}
+img {border-style: ridge;
+    border-width: 10px;
+    border-color: yellow;}
+a{color: crimson;
+font-size: xx-large;
+text-decoration: none;}
+
