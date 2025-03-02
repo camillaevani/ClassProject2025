@@ -4,7 +4,21 @@ p {color: coral;}
 img {border-style: ridge;
     border-width: 10px;
     border-color: yellow;}
-a{color: crimson;
+img:hover {border-style: dotted;
+    border-color: fuchsia;
+
+}
+a{color:darkred;
 font-size: xx-large;
 text-decoration: none;}
-
+#main-nav {
+    background-color: darkorchid;
+    text-align: center;
+    padding: 8px;}
+#main-nav a {font-size: medium;
+color: black;
+margin: 20px;;
+}
+#main-nav a:hover {
+    text-decoration: underline;
+}
