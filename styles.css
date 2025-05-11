@@ -1,24 +1,29 @@
-body {background-color: darkcyan;}
-H1 {color: blanchedalmond;}
-p {color: coral;}
-img {border-style: ridge;
-    border-width: 10px;
-    border-color: yellow;}
-img:hover {border-style: dotted;
-    border-color: fuchsia;
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header {
+    background-color: rgb(113, 229, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+}   
+.logo {
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.main-navigation{
+    display: flex;
+    flex-flow: row wrap;
+}
+.main-navigation a{
+    color: rgb(124, 70, 0);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.7em;
 
-}
-a{color:darkred;
-font-size: xx-large;
-text-decoration: none;}
-#main-nav {
-    background-color: darkorchid;
-    text-align: center;
-    padding: 8px;}
-#main-nav a {font-size: medium;
-color: black;
-margin: 20px;;
-}
-#main-nav a:hover {
-    text-decoration: underline;
 }
