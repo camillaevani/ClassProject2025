@@ -32,10 +32,14 @@ background-color: darkslategrey;
     flex-flow: row wrap;
 }
 .user-nav a {
-    color: rgb(255, 255, 159);
+    color: rgb(255, 134, 134);
     text-decoration: none;
     font-size: 1em;
     padding: 0.7em;
+}
+
+.user-nav a:hover{
+    color: rgb(7, 7, 7);
 }
 .dropdown {
     position: relative;
@@ -63,4 +67,27 @@ max-height: 50vh;
 }
 .dropdown-menu a {
     white-space: nowrap;
+}
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.site-search {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0.7em;
+    min-width: 30vw;
+}
+.site-search input{
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid transparent;
+}
+.site-search button {
+     padding: 0.5em;
+    border: 1px solid transparent;
 }
