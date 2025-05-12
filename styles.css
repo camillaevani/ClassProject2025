@@ -21,6 +21,13 @@ background-color: darkslategrey;
     display: flex;
     flex-flow: row wrap;
 }
+.nav-button{
+    background-color: transparent;
+    color: rgb(99, 255, 211);
+    font-size: 1.2em;
+    border-color: transparent;
+    display:none
+}
 .main-navigation a{
     color: rgb(255, 255, 159);
     text-decoration: none;
