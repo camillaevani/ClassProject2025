@@ -112,10 +112,32 @@ max-height: 50vh;
 .featured-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    gap: 2em;
 }
 .card-image {
     max-width: 100%;
 }
+.card-content {
+    padding: 1em;
+}
+.card {
+    background-color: rgb(203, 211, 166);
+}
+.card-button {
+    display: block;
+    background-color: cornflowerblue;
+    color: aquamarine;
+    padding: 1em;
+    text-align: center;
+   text-decoration: none;
+    border-radius: 12px;
+}
 .col-4 {
     grid-column: span 4;
+}
+.col-3 {
+    grid-column: span 3;
 }
