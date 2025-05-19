@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="script.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     </head>
     <!--body is for content-->
     <body>
@@ -62,7 +64,77 @@
                 </a>
             </nav>
         </header>
-        <main></main>
+        <!--slideshow-->
+        <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true  }'>
+            <div class="slide">
+                <img src="images/shoes1.jpg" alt="shoes">
+            </div>
+            <div class="slide">
+                <img src="images/shoes2.jpg" alt="shoes">
+            </div>
+            <div class="slide">
+                <img src="images/shoes3.jpg" alt="shoes">
+            </div>
+            <div class="slide">
+                <img src="images/shoes4.jpg" alt="shoes">
+            </div>
+            <div class="slide">
+                <img src="images/shoes5.jpg" alt="shoes">
+            </div>
+        </div>
+        <main>
+            <div class="featured-grid">
+                <div class="card col-4">
+                    <img class="card-image" src="images/product1.jpg" alt="casual shoes">
+                    <div class="card-content">
+                        <h3 class="card-title">Category Name</h3>
+                        <a href="#" class="card-button">Shop Casual</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img class="card-image" src="images/product2.jpg" alt="casual shoes">
+                    <div class="card-content">
+                        <h3 class="card-title">Category Name</h3>
+                        <a href="#" class="card-button">Shop Running</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img class="card-image" src="images/product3.jpg" alt="casual shoes">
+                    <div class="card-content">
+                        <h3 class="card-title">Category Name</h3>
+                        <a href="#" class="card-button">Shop Comfort</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img class="card-image" src="images/product4.jpg" alt="casual shoes">
+                    <div class="card-content">
+                        <h3 class="card-title">Category Name</h3>
+                        <a href="#" class="card-button">Shop Edgy</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img class="card-image" src="images/product5.jpg" alt="casual shoes">
+                    <div class="card-content">
+                        <h3 class="card-title">Category Name</h3>
+                        <a href="#" class="card-button">Shop Smart Casual</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img class="card-image" src="images/product6.jpg" alt="casual shoes">
+                    <div class="card-content">
+                        <h3 class="card-title">Category Name</h3>
+                        <a href="#" class="card-button">Shop Hiking</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img class="card-image" src="images/product7.jpg" alt="casual shoes">
+                    <div class="card-content">
+                        <h3 class="card-title">Category Name</h3>
+                        <a href="#" class="card-button">Shop Exercise</a>
+                    </div>
+                </div>
+            </div>
+        </main>
         <footer></footer>
     </body>
 </html>
